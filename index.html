@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Update CSS with <span>JAVASCRIPT</span></h1>
+    <div class="controls">
+      <label for="spacing">Spacing : </label>
+      <input
+        type="range"
+        name="spacing"
+        id="spacing"
+        min="10"
+        max="250"
+        value="10"
+        data-sizing="px"
+      />
+      <p id="spaceID"></p>
+
+      <label for="blur">Blur :</label>
+      <input
+        type="range"
+        name="blur"
+        id="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px"
+      />
+      <p id="blurID"></p>
+
+      <label for="color" >Color :</label>
+      <input type="color" name="base" />
+    </div>
+
+
+    <div class="imageCover">
+        <img src="https://cdn.pixabay.com/photo/2014/12/27/16/38/planet-581239_960_720.jpg" alt="">
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

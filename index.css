@@ -1,0 +1,22 @@
+:root{
+    --base:red;
+    --blur:10px;
+    --spacing:15px;
+}
+
+span{
+    color: var(--base);
+}
+
+.controls{
+    margin: 15px;
+}
+
+
+
+.imageCover{
+    background-color:var(--base);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    width: max-content;
+}
